@@ -1,0 +1,8 @@
+{
+	firstName(String)
+	secondName(String)
+	email(String)
+	password(String)
+	terms(Boolean)
+	role(String) Lawyer/User
+}

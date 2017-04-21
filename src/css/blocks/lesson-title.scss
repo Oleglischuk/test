@@ -1,0 +1,22 @@
+.lesson__page{
+	.lesson__title{
+		padding-left: 15px;
+		margin-bottom: 15px;
+		position: relative;
+
+		.title__text{
+			font-size: 26px;
+			color: #000000;
+			line-height: 1;
+			@media only screen and (max-width: 765px){
+				text-align: center;
+				color: #fff;
+				font-size: 16px;
+			}
+		} 		
+		@media only screen and (max-width: 765px){
+			display: none;
+		}
+
+	}
+}

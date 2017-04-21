@@ -1,0 +1,38 @@
+//
+// Base
+// --------------------------------------------------
+
+
+// 
+html,body{
+    height: 100%;
+}
+body{
+	background: #fff;
+	text-transform: none;
+	overflow-x: hidden;
+	position: relative;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+
+a,
+input{
+	text-decoration: none;
+	outline: none !important;
+}
+
+strong,
+b{
+	font-weight: 700!important;
+}
+
+input {
+	&::-webkit-autofill{
+		-webkit-box-shadow: 0 0 0 1000px white inset !important;	
+	}
+}
+
