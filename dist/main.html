@@ -1,0 +1,20 @@
+ <input ng-readonly="true" type="text" ng-model="newTodo.name">
+        <input ng-disabled="!newTodo.name" type="text" ng-model="newTodo.description">
+        <button ng-disabled="!newTodo.name || !newTodo.description" ng-click="createTodo()">Create</button>
+        {{newTodo}}
+        <hr>
+            <ul>
+                <li ng-class="{'finished':element.status}" ng-repeat="element in todos">
+                    <h5>{{element.name}}</h5>
+                    <p>{{element.description}}</p>
+                    {{element.status}}
+
+                   <button ng-click="finishTodo(this.element)">Finish</button>
+                    <button ng-click="removeTodo(this.element)">X</button>
+                </li>
+            </ul>
+    <!-- ___________________________________________ -->
+        <button ng-click="getUsers()">GET USER</button>
+        <button ng-click="show = !show">Open</button>{{show}}
+        <div ng-show="show">NG SHOW</div>
+        <div ng-hide="show">NG HIDE</div>

@@ -5,12 +5,18 @@
   "main": "JS.js",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0"
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-minify": "0.0.15",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2"
   },
   "devDependencies": {},
   "scripts": {
     "start": "npm install && npm i -g bower && bower install && gulp",
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
